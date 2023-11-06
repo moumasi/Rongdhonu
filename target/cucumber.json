@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify Ronguser can add item in cart",
+        "description": "",
+        "id": "amazon-cart-feature;verify-ronguser-can-add-item-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1386027800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Launch \u003c\"url\"\u003e pro",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 9
+                }
+              ],
+              "location": "Rongdhonu_Login.launch_pro(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6070802600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Type Toys on search field and click icon",
+            "match": {
+              "location": "amazon_cart.type_Toys_on_search_field_and_click_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3960449400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Scrolldown and Checked on lego box",
+            "match": {
+              "location": "amazon_cart.scrolldown_and_Checked_on_lego_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8156278700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Lego city toy",
+            "match": {
+              "location": "amazon_cart.click_on_Lego_city_toy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1968409400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on add to cart",
+            "match": {
+              "location": "amazon_cart.click_on_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 596405000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify Ronguser can add item in cart",
+            "match": {
+              "location": "amazon_cart.verify_Ronguser_can_add_item_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Cart"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon cart feature",
+    "description": "",
+    "id": "amazon-cart-feature",
+    "keyword": "Feature",
+    "uri": "amazon_cart.feature"
+  }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-09T01:59:23 EDT" name="Default suite" finished-at="2023-10-09T01:59:48 EDT" duration-ms="24889">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Rongdhonu_TestRunner.Rongdhonu_Testrunner@4e5ed836]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-10-09T01:59:23 EDT" name="Default test" finished-at="2023-10-09T01:59:48 EDT" duration-ms="24889">
+      <class name="Rongdhonu_TestRunner.Rongdhonu_Testrunner">
+        <test-method is-config="true" signature="RongStarturl()[pri:0, instance:Rongdhonu_TestRunner.Rongdhonu_Testrunner@4e5ed836]" started-at="2023-10-09T01:59:23 EDT" name="RongStarturl" finished-at="2023-10-09T01:59:26 EDT" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RongStarturl -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Rongdhonu_TestRunner.Rongdhonu_Testrunner@4e5ed836]" started-at="2023-10-09T01:59:26 EDT" name="setUpClass" finished-at="2023-10-09T01:59:26 EDT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Rongdhonu_TestRunner.Rongdhonu_Testrunner@4e5ed836]" started-at="2023-10-09T01:59:26 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-10-09T01:59:48 EDT" duration-ms="22194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon cart feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Rongdhonu_TestRunner.Rongdhonu_Testrunner@4e5ed836]" started-at="2023-10-09T01:59:48 EDT" name="tearDownClass" finished-at="2023-10-09T01:59:48 EDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="RongCloseurl()[pri:0, instance:Rongdhonu_TestRunner.Rongdhonu_Testrunner@4e5ed836]" started-at="2023-10-09T01:59:48 EDT" name="RongCloseurl" finished-at="2023-10-09T01:59:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RongCloseurl -->
+      </class> <!-- Rongdhonu_TestRunner.Rongdhonu_Testrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
